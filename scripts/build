@@ -2,7 +2,6 @@
 mkdir -p dist
 NODE_ENV=production node_modules/.bin/browserify lib/index.js \
   -t reactify \
-  -t browserify-shim \
   -t envify \
   --detect-globals false \
   -s ReactMenu > dist/react-menu.js

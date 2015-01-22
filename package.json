@@ -22,7 +22,6 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "4.2.3",
-    "browserify-shim": "3.6.0",
     "envify": "1.2.0",
     "expect": "0.1.1",
     "jsx-loader": "0.11.2",
@@ -53,9 +52,6 @@
     "menu",
     "dropdown"
   ],
-  "browserify-shim": {
-    "react": "global:React"
-  },
   "dependencies": {
     "js-stylesheet": "0.0.1"
   }
